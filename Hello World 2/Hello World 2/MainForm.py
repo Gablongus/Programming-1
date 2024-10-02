@@ -17,24 +17,21 @@ class MainForm(Form):
         # 
         # label1
         # 
-        self._label1.BackColor = System.Drawing.SystemColors.ButtonFace
-        self._label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        self._label1.Font = System.Drawing.Font("Modern No. 20", 15.749999, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._label1.Location = System.Drawing.Point(236, 98)
+        self._label1.BackColor = System.Drawing.SystemColors.ControlLight
+        self._label1.Font = System.Drawing.Font("MS Gothic", 12, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
+        self._label1.Location = System.Drawing.Point(336, 131)
         self._label1.Name = "label1"
-        self._label1.Size = System.Drawing.Size(412, 220)
+        self._label1.Size = System.Drawing.Size(218, 112)
         self._label1.TabIndex = 0
         self._label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        self._label1.Click += self.Label1Click
         # 
         # button1
         # 
-        self._button1.BackColor = System.Drawing.SystemColors.InactiveCaption
-        self._button1.Font = System.Drawing.Font("MS Gothic", 14.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._button1.ForeColor = System.Drawing.SystemColors.ControlText
-        self._button1.Location = System.Drawing.Point(111, 400)
+        self._button1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
+        self._button1.Font = System.Drawing.Font("MS Gothic", 12, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
+        self._button1.Location = System.Drawing.Point(187, 319)
         self._button1.Name = "button1"
-        self._button1.Size = System.Drawing.Size(173, 60)
+        self._button1.Size = System.Drawing.Size(140, 61)
         self._button1.TabIndex = 1
         self._button1.Text = "Show"
         self._button1.UseVisualStyleBackColor = False
@@ -42,23 +39,23 @@ class MainForm(Form):
         # 
         # button2
         # 
-        self._button2.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        self._button2.Font = System.Drawing.Font("MS PGothic", 14.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._button2.Location = System.Drawing.Point(348, 400)
+        self._button2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
+        self._button2.Font = System.Drawing.Font("MS Gothic", 12, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
+        self._button2.Location = System.Drawing.Point(382, 319)
         self._button2.Name = "button2"
-        self._button2.Size = System.Drawing.Size(173, 60)
+        self._button2.Size = System.Drawing.Size(140, 61)
         self._button2.TabIndex = 2
-        self._button2.Text = "Clear"
+        self._button2.Text = "Hide"
         self._button2.UseVisualStyleBackColor = False
         self._button2.Click += self.Button2Click
         # 
         # button3
         # 
         self._button3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        self._button3.Font = System.Drawing.Font("MS PGothic", 14.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._button3.Location = System.Drawing.Point(587, 400)
+        self._button3.Font = System.Drawing.Font("MS Gothic", 12, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
+        self._button3.Location = System.Drawing.Point(588, 319)
         self._button3.Name = "button3"
-        self._button3.Size = System.Drawing.Size(173, 60)
+        self._button3.Size = System.Drawing.Size(140, 61)
         self._button3.TabIndex = 3
         self._button3.Text = "Exit"
         self._button3.UseVisualStyleBackColor = False
@@ -66,15 +63,16 @@ class MainForm(Form):
         # 
         # MainForm
         # 
-        self.BackColor = System.Drawing.SystemColors.AppWorkspace
-        self.ClientSize = System.Drawing.Size(871, 525)
+        self.BackColor = System.Drawing.SystemColors.ActiveCaption
+        self.ClientSize = System.Drawing.Size(909, 457)
         self.Controls.Add(self._button3)
         self.Controls.Add(self._button2)
         self.Controls.Add(self._button1)
         self.Controls.Add(self._label1)
         self.Name = "MainForm"
-        self.Text = "HelloWorld"
+        self.Text = "Hello World 2"
         self.ResumeLayout(False)
+
 
     
 

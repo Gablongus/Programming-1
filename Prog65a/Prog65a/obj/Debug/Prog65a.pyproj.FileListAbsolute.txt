@@ -1,0 +1,12 @@
+C:\Users\schraedl.g\Desktop\Programming 1\Prog65a\Prog65a\bin\Debug\Prog65a.exe.config
+C:\Users\schraedl.g\Desktop\Programming 1\Prog65a\Prog65a\bin\Debug\Prog65a.exe
+C:\Users\schraedl.g\Desktop\Programming 1\Prog65a\Prog65a\bin\Debug\Prog65a.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Prog65a\Prog65a\bin\Debug\IronPython.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Prog65a\Prog65a\bin\Debug\IronPython.Modules.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Prog65a\Prog65a\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Prog65a\Prog65a\bin\Debug\Microsoft.Scripting.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Prog65a\Prog65a\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Prog65a\Prog65a\obj\Debug\Prog65a.pyprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 1\Prog65a\Prog65a\obj\Debug\Prog65a.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 1\Prog65a\Prog65a\obj\Debug\Prog65a.pyproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 1\Prog65a\Prog65a\obj\Debug\Prog65a.exe
