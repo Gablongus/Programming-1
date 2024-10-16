@@ -1,10 +1,20 @@
-﻿eggs = int(input("Enter amount of eggs purchased: "))
+﻿eggs = input("Enter amount of eggs purchased: ")
 extras = eggs%12
-dozens = eggs-extras/12
-price = 0.50
+dozens = eggs//12
+price = 0.0
 if dozens>0 and dozens<4:
-    price = int(0.50)
-    
-print"Final Price= " + str((price * dozens)+ extras * (1/12 * price))
+    price = 0.50
+if dozens>=4 and dozens<6:
+    price = 0.45
+if dozens>=6 and dozens<11:
+    price = 0.40
+if dozens>=11:
+    price = 0.35
+
+dozencost = price * dozens
+extracost = extras * round(price/12,3)
+finalcost = dozencost + extracost
+print ("Final Price = " + str(round(finalcost,2)))
+
 
 input()
