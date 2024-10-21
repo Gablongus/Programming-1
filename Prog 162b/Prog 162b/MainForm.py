@@ -17,22 +17,20 @@ class MainForm(Form):
         # 
         # listBox1
         # 
-        self._listBox1.Font = System.Drawing.Font("Microsoft YaHei UI", 9.75, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
         self._listBox1.FormattingEnabled = True
-        self._listBox1.ItemHeight = 19
-        self._listBox1.Location = System.Drawing.Point(223, 12)
+        self._listBox1.Location = System.Drawing.Point(12, 9)
         self._listBox1.Name = "listBox1"
-        self._listBox1.Size = System.Drawing.Size(244, 232)
+        self._listBox1.Size = System.Drawing.Size(501, 329)
         self._listBox1.TabIndex = 0
         # 
         # button1
         # 
-        self._button1.BackColor = System.Drawing.Color.DeepSkyBlue
+        self._button1.BackColor = System.Drawing.Color.MediumPurple
         self._button1.Font = System.Drawing.Font("Mongolian Baiti", 12, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
         self._button1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        self._button1.Location = System.Drawing.Point(12, 12)
+        self._button1.Location = System.Drawing.Point(12, 346)
         self._button1.Name = "button1"
-        self._button1.Size = System.Drawing.Size(205, 74)
+        self._button1.Size = System.Drawing.Size(155, 81)
         self._button1.TabIndex = 1
         self._button1.Text = "Calculate"
         self._button1.UseVisualStyleBackColor = False
@@ -40,12 +38,12 @@ class MainForm(Form):
         # 
         # button2
         # 
-        self._button2.BackColor = System.Drawing.Color.DeepSkyBlue
+        self._button2.BackColor = System.Drawing.Color.MediumPurple
         self._button2.Font = System.Drawing.Font("Mongolian Baiti", 12, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
         self._button2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        self._button2.Location = System.Drawing.Point(12, 92)
+        self._button2.Location = System.Drawing.Point(185, 346)
         self._button2.Name = "button2"
-        self._button2.Size = System.Drawing.Size(205, 73)
+        self._button2.Size = System.Drawing.Size(155, 81)
         self._button2.TabIndex = 2
         self._button2.Text = "Clear"
         self._button2.UseVisualStyleBackColor = False
@@ -53,12 +51,12 @@ class MainForm(Form):
         # 
         # button3
         # 
-        self._button3.BackColor = System.Drawing.Color.DeepSkyBlue
+        self._button3.BackColor = System.Drawing.Color.MediumPurple
         self._button3.Font = System.Drawing.Font("Mongolian Baiti", 12, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
         self._button3.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        self._button3.Location = System.Drawing.Point(12, 171)
+        self._button3.Location = System.Drawing.Point(358, 346)
         self._button3.Name = "button3"
-        self._button3.Size = System.Drawing.Size(205, 73)
+        self._button3.Size = System.Drawing.Size(155, 81)
         self._button3.TabIndex = 3
         self._button3.Text = "Exit"
         self._button3.UseVisualStyleBackColor = False
@@ -66,40 +64,27 @@ class MainForm(Form):
         # 
         # MainForm
         # 
-        self.BackColor = System.Drawing.Color.DodgerBlue
-        self.ClientSize = System.Drawing.Size(482, 252)
+        self.BackColor = System.Drawing.Color.DarkSlateBlue
+        self.ClientSize = System.Drawing.Size(525, 439)
         self.Controls.Add(self._button3)
         self.Controls.Add(self._button2)
         self.Controls.Add(self._button1)
         self.Controls.Add(self._listBox1)
         self.Name = "MainForm"
-        self.Text = "Prog 122c"
-        self.Load += self.MainFormLoad
+        self.Text = "Prog 162b"
         self.ResumeLayout(False)
 
 
-    def MainFormLoad(self, sender, e):
-        pass
-
-    def Button1Click(self, sender, e):
-        #Pattern is Number 1 increase + 2.Number 1 + 1 = Number 2, (Number 2 - 2) + 
-        #Number 2 = Number 3, Number 3 * X = Number 4. Increase X
-        Increment4 = 1
-        Num1 = 2
-        Num2 = Num1 + 1
-        Num3 = Num2 + (Num2 - 2)
-        Num4 = Num3 * Increment4
-        for num in range(1, 6):
-            Num2 = Num1 + 1
-            Num3 = Num2 + (Num2 - 2)
-            Num4 = Num3 * Increment4                    
-            Line = str(Num1) + "\t" + str(Num2) + "\t" + str(Num3) + "\t" + str(Num4)
-            self._listBox1.Items.Add(Line)
-            Num1 = Num1 + 2
-            Increment4 = Increment4 + 1
-                
-
-    def Button2Click(self, sender, e):
+    def Button1Click(self, sender, e): # Calc
+        heading = "Year\t\tPopulation (in mil.)"
+        self._listBox1.Items.Add(heading)
+        pop = 243
+        for year in range(1990, 2016):
+            line = str(year) + "\t\t" + str(int(pop))
+            self._listBox1.Items.Add(line)
+            pop *= 1.029 #pop = pop * 1.029
+        
+    def Button2Click(self, sender, e): # Clear
         self._listBox1.Items.Clear()
 
     def Button3Click(self, sender, e):
