@@ -84,13 +84,14 @@ class MainForm(Form):
         heading = "x\ty"
         self._listBox1.Items.Add(heading)
         while x <= 16:
+            y = x **6 -3 * x **5 -93 * x **4 + 87 * x **3 + 1596 * x **2 - 1380 * x - 2800
             line = str(x) + "\t" + str(y)
-            self.listBox1.Items.Add(line)
+            self._listBox1.Items.Add(line)
             x = x+1
         
 
     def Button2Click(self, sender, e):
-        self._list.Box1.Items.Clear()
+        self._listBox1.Items.Clear()
 
     def Button3Click(self, sender, e):
-        pass
+        Application.Exit()
