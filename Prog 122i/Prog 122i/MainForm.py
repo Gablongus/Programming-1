@@ -78,8 +78,17 @@ class MainForm(Form):
 
 
     def Button1Click(self, sender, e): # Calculate
-        Num = 1
-        for num in range(-25, 25):
+        Num = -25
+        Heading = "Number\tNumber Cube\tCube Root"
+        self._listBox1.Items.Add(Heading)
+        for num in range(-25, 26):
+            Cube = Num**3
+            if Num > -1:
+                CubeRoot = Num**(1./3)
+            else: CubeRoot = (Num *-1) **(1./3) *-1
+            Line = str(Num) + "\t" + str(Cube) + "\t\t" + str(round(CubeRoot,5))
+            self._listBox1.Items.Add(Line)
+            Num = Num+1
             
 
     def Button2Click(self, sender, e):
