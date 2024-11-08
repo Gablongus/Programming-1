@@ -1,0 +1,12 @@
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 186 Stadium Seating\Pg 186 Stadium Seating\bin\Debug\Pg 186 Stadium Seating.exe.config
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 186 Stadium Seating\Pg 186 Stadium Seating\bin\Debug\Pg 186 Stadium Seating.exe
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 186 Stadium Seating\Pg 186 Stadium Seating\bin\Debug\Pg 186 Stadium Seating.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 186 Stadium Seating\Pg 186 Stadium Seating\bin\Debug\IronPython.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 186 Stadium Seating\Pg 186 Stadium Seating\bin\Debug\IronPython.Modules.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 186 Stadium Seating\Pg 186 Stadium Seating\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 186 Stadium Seating\Pg 186 Stadium Seating\bin\Debug\Microsoft.Scripting.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 186 Stadium Seating\Pg 186 Stadium Seating\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 186 Stadium Seating\Pg 186 Stadium Seating\obj\Debug\Pg 186 Stadium Seating.pyprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 186 Stadium Seating\Pg 186 Stadium Seating\obj\Debug\Pg_186_Stadium_Seating.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 186 Stadium Seating\Pg 186 Stadium Seating\obj\Debug\Pg 186 Stadium Seating.pyproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 186 Stadium Seating\Pg 186 Stadium Seating\obj\Debug\Pg 186 Stadium Seating.exe

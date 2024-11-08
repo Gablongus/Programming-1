@@ -1,0 +1,12 @@
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 153 Salary Calc\Pg 153 Salary Calc\obj\Debug\Pg 153 Salary Calc.pyprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 153 Salary Calc\Pg 153 Salary Calc\obj\Debug\Pg_153_Salary_Calc.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 153 Salary Calc\Pg 153 Salary Calc\obj\Debug\Pg 153 Salary Calc.pyproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 153 Salary Calc\Pg 153 Salary Calc\bin\Debug\Pg 153 Salary Calc.exe.config
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 153 Salary Calc\Pg 153 Salary Calc\bin\Debug\Pg 153 Salary Calc.exe
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 153 Salary Calc\Pg 153 Salary Calc\bin\Debug\Pg 153 Salary Calc.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 153 Salary Calc\Pg 153 Salary Calc\bin\Debug\IronPython.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 153 Salary Calc\Pg 153 Salary Calc\bin\Debug\IronPython.Modules.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 153 Salary Calc\Pg 153 Salary Calc\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 153 Salary Calc\Pg 153 Salary Calc\bin\Debug\Microsoft.Scripting.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 153 Salary Calc\Pg 153 Salary Calc\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 153 Salary Calc\Pg 153 Salary Calc\obj\Debug\Pg 153 Salary Calc.exe

@@ -106,7 +106,10 @@ class MainForm(Form):
         Salary       = 0.0
         
         try:
-        AnnualSalary = float(self._textBox1.Text)
-        PayPeriods   = int(self._textBox2.Text)
+            AnnualSalary = float(self._textBox1.Text)
+            PayPeriods   = int(self._textBox2.Text)
         except:
             MessageBox.Show("The input files must contain nonzero numeric values.", "Error")
+            
+        Salary = AnnualSalary / PayPeriods
+        self._label4.Text = str(round(Salary,2))
