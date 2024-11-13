@@ -1,0 +1,12 @@
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 198 Score Average\Pg 198 Score Average\bin\Debug\Pg 198 Score Average.exe.config
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 198 Score Average\Pg 198 Score Average\bin\Debug\Pg 198 Score Average.exe
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 198 Score Average\Pg 198 Score Average\bin\Debug\Pg 198 Score Average.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 198 Score Average\Pg 198 Score Average\bin\Debug\IronPython.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 198 Score Average\Pg 198 Score Average\bin\Debug\IronPython.Modules.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 198 Score Average\Pg 198 Score Average\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 198 Score Average\Pg 198 Score Average\bin\Debug\Microsoft.Scripting.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 198 Score Average\Pg 198 Score Average\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 198 Score Average\Pg 198 Score Average\obj\Debug\Pg 198 Score Average.pyprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 198 Score Average\Pg 198 Score Average\obj\Debug\Pg_198_Score_Average.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 198 Score Average\Pg 198 Score Average\obj\Debug\Pg 198 Score Average.pyproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 198 Score Average\Pg 198 Score Average\obj\Debug\Pg 198 Score Average.exe
