@@ -138,6 +138,7 @@ class MainForm(Form):
         self._button2.TabIndex = 10
         self._button2.Text = "Clear"
         self._button2.UseVisualStyleBackColor = False
+        self._button2.Click += self.Button2Click
         # 
         # button3
         # 
@@ -150,6 +151,7 @@ class MainForm(Form):
         self._button3.TabIndex = 11
         self._button3.Text = "Exit"
         self._button3.UseVisualStyleBackColor = False
+        self._button3.Click += self.Button3Click
         # 
         # label7
         # 
@@ -158,7 +160,6 @@ class MainForm(Form):
         self._label7.Name = "label7"
         self._label7.Size = System.Drawing.Size(141, 23)
         self._label7.TabIndex = 12
-        self._label7.Text = "Congratulations! Great Job!"
         # 
         # MainForm
         # 
@@ -184,5 +185,21 @@ class MainForm(Form):
 
 
     def Button1Click(self, sender, e):
-        box1 = str(self._textBox1.Text)
-        box2 = str
+        box1 = int(self._textBox1.Text)
+        box2 = int(self._textBox2.Text)
+        box3 = int(self._textBox3.Text)
+        avg  = round((box3 + box2 + box1)/3,2)
+        self._label6.Text = str(avg)
+        if avg > 95:
+            self._label7.Text = "Congratulations! Great Job!"
+
+    def Button2Click(self, sender, e):
+        self._textBox1.Text = ""
+        self._textBox2.Text = ""
+        self._textBox3.Text = ""
+        self._label6.Text   = ""
+        self._label7.Text   = ""
+        
+
+    def Button3Click(self, sender, e):
+        Application.Exit()  
