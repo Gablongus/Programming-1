@@ -129,6 +129,7 @@ class MainForm(Form):
         self._button1.TabIndex = 10
         self._button1.Text = "Calculate"
         self._button1.UseVisualStyleBackColor = True
+        self._button1.Click += self.Button1Click
         # 
         # MainForm
         # 
@@ -149,4 +150,33 @@ class MainForm(Form):
         self.Text = "Pg 240 Commision Calculator"
         self.ResumeLayout(False)
         self.PerformLayout()
+        
+        
 
+
+    def Button1Click(self, sender, e):
+        decSalesAmount = 0.0
+        decAdvancedPayAmount = 0.0
+        decCommissionRate = 0.0
+        decCommissionAmount = 0.0
+        decNetPay = 0.0
+        
+        try:
+            decSalesAmount = float(self._textBox1.Text)
+        except:
+            self._lblErrorMessage.Text = "Advance pay amount must be numeric"
+            self._lblErrorMessage.Visible = True
+            return
+        
+        self._lblErrorMessage.Visible = False
+        
+        if decSalesAmount < 10000:
+            decCommissionRate = 0.05
+        elif decSalesAmount >= 10000 and decSalesAmount < 15000:
+            decCommissionRate = 0.1
+        elif decSalesAmount >= 15000 and decSalesAmount < 18000:
+            decCommissionRate = 0.12
+        elif decSalesAmount >= 18000 and decSalesAmount < 22000:
+            decCommissionRate = 0.14
+        elif decSalesAmount >= 22000:
+            decCommissionRate = 0.15
