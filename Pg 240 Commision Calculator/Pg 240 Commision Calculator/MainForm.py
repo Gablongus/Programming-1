@@ -164,11 +164,16 @@ class MainForm(Form):
         try:
             decSalesAmount = float(self._textBox1.Text)
         except:
-            self._lblErrorMessage.Text = "Advance pay amount must be numeric"
-            self._lblErrorMessage.Visible = True
+            MessageBox.Show("Sales amount must be numeric")
             return
         
-        self._lblErrorMessage.Visible = False
+        try:
+            decAdvancePayAmount = float(self._textBox2.Text)
+        except:
+            MessageBox.Show("Advance pay amount must be numeric")
+            return
+        
+       
         
         if decSalesAmount < 10000:
             decCommissionRate = 0.05
@@ -180,3 +185,12 @@ class MainForm(Form):
             decCommissionRate = 0.14
         elif decSalesAmount >= 22000:
             decCommissionRate = 0.15
+            
+        decCommissionAmount = decSalesAmount * decCommissionRate
+        decNetPay = decCommissionAmount - decAdvancePayAmount
+        
+        self._label4.Text = str(round(decCommissionRate, 2))
+        self._label5.Text = str(round(decCommissionAmount, 2))
+        self._label7.Text = str(round(decNetPay, 2))
+            
+        

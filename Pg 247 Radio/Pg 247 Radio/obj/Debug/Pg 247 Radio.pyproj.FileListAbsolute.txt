@@ -1,0 +1,12 @@
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 247 Radio\Pg 247 Radio\bin\Debug\Pg 247 Radio.exe.config
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 247 Radio\Pg 247 Radio\bin\Debug\Pg 247 Radio.exe
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 247 Radio\Pg 247 Radio\bin\Debug\Pg 247 Radio.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 247 Radio\Pg 247 Radio\bin\Debug\IronPython.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 247 Radio\Pg 247 Radio\bin\Debug\IronPython.Modules.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 247 Radio\Pg 247 Radio\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 247 Radio\Pg 247 Radio\bin\Debug\Microsoft.Scripting.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 247 Radio\Pg 247 Radio\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 247 Radio\Pg 247 Radio\obj\Debug\Pg 247 Radio.pyprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 247 Radio\Pg 247 Radio\obj\Debug\Pg_247_Radio.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 247 Radio\Pg 247 Radio\obj\Debug\Pg 247 Radio.pyproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 247 Radio\Pg 247 Radio\obj\Debug\Pg 247 Radio.exe

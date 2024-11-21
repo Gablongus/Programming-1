@@ -1,0 +1,12 @@
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 240 Commision Calculator\Pg 240 Commision Calculator\obj\Debug\Pg 240 Commision Calculator.pyprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 240 Commision Calculator\Pg 240 Commision Calculator\obj\Debug\Pg_240_Commision_Calculator.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 240 Commision Calculator\Pg 240 Commision Calculator\obj\Debug\Pg 240 Commision Calculator.pyproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 240 Commision Calculator\Pg 240 Commision Calculator\bin\Debug\Pg 240 Commision Calculator.exe.config
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 240 Commision Calculator\Pg 240 Commision Calculator\bin\Debug\Pg 240 Commision Calculator.exe
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 240 Commision Calculator\Pg 240 Commision Calculator\bin\Debug\Pg 240 Commision Calculator.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 240 Commision Calculator\Pg 240 Commision Calculator\bin\Debug\IronPython.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 240 Commision Calculator\Pg 240 Commision Calculator\bin\Debug\IronPython.Modules.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 240 Commision Calculator\Pg 240 Commision Calculator\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 240 Commision Calculator\Pg 240 Commision Calculator\bin\Debug\Microsoft.Scripting.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 240 Commision Calculator\Pg 240 Commision Calculator\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 240 Commision Calculator\Pg 240 Commision Calculator\obj\Debug\Pg 240 Commision Calculator.exe
