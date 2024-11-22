@@ -1,0 +1,12 @@
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 250 Membership Fee\Pg 250 Membership Fee\obj\Debug\Pg 250 Membership Fee.pyprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 250 Membership Fee\Pg 250 Membership Fee\obj\Debug\Pg_250_Membership_Fee.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 250 Membership Fee\Pg 250 Membership Fee\obj\Debug\Pg 250 Membership Fee.pyproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 250 Membership Fee\Pg 250 Membership Fee\bin\Debug\Pg 250 Membership Fee.exe.config
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 250 Membership Fee\Pg 250 Membership Fee\bin\Debug\Pg 250 Membership Fee.exe
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 250 Membership Fee\Pg 250 Membership Fee\bin\Debug\Pg 250 Membership Fee.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 250 Membership Fee\Pg 250 Membership Fee\bin\Debug\IronPython.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 250 Membership Fee\Pg 250 Membership Fee\bin\Debug\IronPython.Modules.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 250 Membership Fee\Pg 250 Membership Fee\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 250 Membership Fee\Pg 250 Membership Fee\bin\Debug\Microsoft.Scripting.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 250 Membership Fee\Pg 250 Membership Fee\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 250 Membership Fee\Pg 250 Membership Fee\obj\Debug\Pg 250 Membership Fee.exe
