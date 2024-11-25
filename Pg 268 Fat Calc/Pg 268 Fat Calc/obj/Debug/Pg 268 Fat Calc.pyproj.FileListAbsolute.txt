@@ -1,0 +1,12 @@
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 268 Fat Calc\Pg 268 Fat Calc\obj\Debug\Pg 268 Fat Calc.pyprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 268 Fat Calc\Pg 268 Fat Calc\obj\Debug\Pg_268_Fat_Calc.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 268 Fat Calc\Pg 268 Fat Calc\obj\Debug\Pg 268 Fat Calc.pyproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 268 Fat Calc\Pg 268 Fat Calc\bin\Debug\Pg 268 Fat Calc.exe.config
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 268 Fat Calc\Pg 268 Fat Calc\bin\Debug\Pg 268 Fat Calc.exe
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 268 Fat Calc\Pg 268 Fat Calc\bin\Debug\Pg 268 Fat Calc.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 268 Fat Calc\Pg 268 Fat Calc\bin\Debug\IronPython.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 268 Fat Calc\Pg 268 Fat Calc\bin\Debug\IronPython.Modules.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 268 Fat Calc\Pg 268 Fat Calc\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 268 Fat Calc\Pg 268 Fat Calc\bin\Debug\Microsoft.Scripting.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 268 Fat Calc\Pg 268 Fat Calc\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 268 Fat Calc\Pg 268 Fat Calc\obj\Debug\Pg 268 Fat Calc.exe
