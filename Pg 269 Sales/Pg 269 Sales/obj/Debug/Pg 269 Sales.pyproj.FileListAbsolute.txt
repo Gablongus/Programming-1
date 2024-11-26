@@ -1,0 +1,12 @@
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 269 Sales\Pg 269 Sales\obj\Debug\Pg 269 Sales.pyprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 269 Sales\Pg 269 Sales\obj\Debug\Pg_269_Sales.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 269 Sales\Pg 269 Sales\obj\Debug\Pg 269 Sales.pyproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 269 Sales\Pg 269 Sales\bin\Debug\Pg 269 Sales.exe.config
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 269 Sales\Pg 269 Sales\bin\Debug\Pg 269 Sales.exe
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 269 Sales\Pg 269 Sales\bin\Debug\Pg 269 Sales.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 269 Sales\Pg 269 Sales\bin\Debug\IronPython.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 269 Sales\Pg 269 Sales\bin\Debug\IronPython.Modules.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 269 Sales\Pg 269 Sales\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 269 Sales\Pg 269 Sales\bin\Debug\Microsoft.Scripting.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 269 Sales\Pg 269 Sales\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 269 Sales\Pg 269 Sales\obj\Debug\Pg 269 Sales.exe
