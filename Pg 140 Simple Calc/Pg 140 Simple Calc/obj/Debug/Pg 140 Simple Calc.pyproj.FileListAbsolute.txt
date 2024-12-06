@@ -1,0 +1,12 @@
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 140 Simple Calc\Pg 140 Simple Calc\obj\Debug\Pg 140 Simple Calc.pyprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 140 Simple Calc\Pg 140 Simple Calc\obj\Debug\Pg_140_Simple_Calc.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 140 Simple Calc\Pg 140 Simple Calc\obj\Debug\Pg 140 Simple Calc.pyproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 140 Simple Calc\Pg 140 Simple Calc\bin\Debug\Pg 140 Simple Calc.exe.config
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 140 Simple Calc\Pg 140 Simple Calc\bin\Debug\Pg 140 Simple Calc.exe
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 140 Simple Calc\Pg 140 Simple Calc\bin\Debug\Pg 140 Simple Calc.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 140 Simple Calc\Pg 140 Simple Calc\bin\Debug\IronPython.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 140 Simple Calc\Pg 140 Simple Calc\bin\Debug\IronPython.Modules.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 140 Simple Calc\Pg 140 Simple Calc\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 140 Simple Calc\Pg 140 Simple Calc\bin\Debug\Microsoft.Scripting.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 140 Simple Calc\Pg 140 Simple Calc\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 140 Simple Calc\Pg 140 Simple Calc\obj\Debug\Pg 140 Simple Calc.exe
