@@ -1,0 +1,12 @@
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 162 Room Charge\Pg 162 Room Charge\obj\Debug\Pg 162 Room Charge.pyprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 162 Room Charge\Pg 162 Room Charge\obj\Debug\Pg_162_Room_Charge.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 162 Room Charge\Pg 162 Room Charge\obj\Debug\Pg 162 Room Charge.pyproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 162 Room Charge\Pg 162 Room Charge\bin\Debug\Pg 162 Room Charge.exe.config
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 162 Room Charge\Pg 162 Room Charge\bin\Debug\Pg 162 Room Charge.exe
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 162 Room Charge\Pg 162 Room Charge\bin\Debug\Pg 162 Room Charge.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 162 Room Charge\Pg 162 Room Charge\bin\Debug\IronPython.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 162 Room Charge\Pg 162 Room Charge\bin\Debug\IronPython.Modules.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 162 Room Charge\Pg 162 Room Charge\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 162 Room Charge\Pg 162 Room Charge\bin\Debug\Microsoft.Scripting.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 162 Room Charge\Pg 162 Room Charge\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\schraedl.g\Desktop\Programming 1\Pg 162 Room Charge\Pg 162 Room Charge\obj\Debug\Pg 162 Room Charge.exe
