@@ -32,7 +32,7 @@ class MainForm(Form):
         # lbltitle
         # 
         self._lbltitle.BackColor = System.Drawing.Color.Transparent
-        self._lbltitle.Font = System.Drawing.Font("Microsoft Sans Serif", 27.75, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
+        self._lbltitle.Font = System.Drawing.Font("Microsoft Sans Serif", 20, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
         self._lbltitle.ForeColor = System.Drawing.Color.White
         self._lbltitle.Location = System.Drawing.Point(12, 25)
         self._lbltitle.Name = "lbltitle"
@@ -44,7 +44,7 @@ class MainForm(Form):
         # leftscore
         # 
         self._leftscore.BackColor = System.Drawing.Color.Transparent
-        self._leftscore.Font = System.Drawing.Font("Microsoft Sans Serif", 57.75, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
+        self._leftscore.Font = System.Drawing.Font("Microsoft Sans Serif", 48, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
         self._leftscore.ForeColor = System.Drawing.Color.White
         self._leftscore.Location = System.Drawing.Point(78, 96)
         self._leftscore.Name = "leftscore"
@@ -56,7 +56,7 @@ class MainForm(Form):
         # rightscore
         # 
         self._rightscore.BackColor = System.Drawing.Color.Transparent
-        self._rightscore.Font = System.Drawing.Font("Microsoft Sans Serif", 57.75, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
+        self._rightscore.Font = System.Drawing.Font("Microsoft Sans Serif", 48, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0)
         self._rightscore.ForeColor = System.Drawing.Color.White
         self._rightscore.Location = System.Drawing.Point(734, 96)
         self._rightscore.Name = "rightscore"
@@ -112,7 +112,7 @@ class MainForm(Form):
         # MainForm
         # 
         self.BackColor = System.Drawing.Color.Black
-        self.ClientSize = System.Drawing.Size(988, 607)
+        self.ClientSize = System.Drawing.Size(982, 590)
         self.Controls.Add(self._lblright)
         self.Controls.Add(self._lblleft)
         self.Controls.Add(self._lblball)
@@ -128,9 +128,112 @@ class MainForm(Form):
 
 
     def TimerballTick(self, sender, e):
+        ball = self._lblball
+        lpdl = self._lblleft
+        rpdl = self._lblright
+        rscore = int(self._rightscore.Text)
+        lscore = int(self._leftscore.Text)
+        ball.Top += self.ballup
+        ball.Left += 8 * self.balld
+        
+        if ball.Right >= rpdl.Right and ball.Bottom >= rpdl.Top and ball.Top <= rpdl.Bottom:
+            self.balld = -1
+            self.ballup = self.R.Next(-4, 5)
+        elif ball.Left <= lpdl.Left and ball.Bottom >= lpdl.Top and ball.Top <= lpdl.Bottom:
+            self.balld = 1
+            self.ballup = self.R.Next(-4, 5)
+            
+        if ball.Top <= self.Top + 10:
+            self.ballup = 1
+        elif ball.Top >= self.Height - 50:
+            self.ballup = -1
+            
+        if ball.Location.X <= 0 or ball.Location.X < lpdl.Left - 20:
+               """ TODO: FINISH LEFT BOUNDARY """
+               pass
+           
+        if ball.Location.X >= self.Width or ball.Location.X > rpdl.Right + 20:
+               lscore += 1
+               self._leftscore.Text = str(lscore)
+               ball.Left = self.Width // 2
+               ball.Top = self.Height // 2
+               
+        """ TODO: FINISH RIGHT SCORE WIN CONDITION """
+        
+        if lscore == 10:  # Left win condition
+            self._timerball.Enabled = False
+            ball.Left = self.Width // 2
+            ball.Top = self.Height // 2
+            self.ballup = 0
+            self._lbltitle.Text = "Left Player Wins! Press R to restart"
+            self._lbltitle.Visible = True
+            
+        """ TODO: ? """
+        if self._timerboolean.Enabled:
+            lpdl.Top = ball.Top - 20
         pass
 
     def MainFormKeyDown(self, sender, e):
+        tball  = self._timerball
+        tdum   = self._timerdummy
+        tbool  = self._timerboolean
+        tmult  = self._timermulti
+        tleft  = self._timerleft
+        tright = self._timerright
+        bl     = self._lblball
+        lpdl   = self._lblleft
+        rpdl   = self._lblright
+        title  = self._lbltitle
+        
+        def reset():
+            title.Visible = True
+            title.Text = "Press Enter to Start or M to start Multiplayer"
+            self._leftscore.Text = "0"
+            self._rightscore.Text = "0"
+            tball.Enabled = False
+            tdum.Enabled = False
+            tbool.Enabled = False
+            tmult.Enabled = False
+            tleft.Enabled = False
+            tright.Enabled = False
+            bl.Left = self.Width // 2
+            bl.Top = self.Height // 2
+            lpdl.Top = (self.Height // 2) - 50 + lpdl.Height
+            rpdl.Top = (self.Height // 2) - 50 + rpdl.Height
+            """ TODO: RESET SECRETS """
+            bl.BackColor = Color.White
+            
+        if e.KeyCode == Keys.R:
+            reset()
+            
+        """ TODO: SECRET CONTROL """
+        
+        if e.KeyCode == Keys.Enter:
+            tball.Enabled = True
+            tdum.Enabled = True
+            tbool.Enabled = not tmult.Enabled
+            title.Visible = False
+            
+        if e.KeyCode == Keys.M:
+            reset()
+            title.Visible = True
+            title.Text = "Use W and S to move the left paddle; hit Enter to start"
+            tmult.Enabled = True
+            
+        if tdum.Enabled:
+            if e.KeyCode == Keys.Up:
+                self.flagright = False
+                tright.Enabled = True
+            elif e.KeyCode == Keys.Down:
+                self.flagright = True
+                tright.Enabled = True
+        
+        """ TODO: FINISH MULTIPLAYER CONTROLS """
+        if tmult.Enabled and tball.Enabled:
+            if e.KeyCode == Keys.W:
+                pass
+            elif e.KeyCode == Keys.S:
+                pass
         pass
 
     def MainFormLoad(self, sender, e):
@@ -155,7 +258,7 @@ class MainForm(Form):
 
     def LblballClick(self, sender, e):
         self._lblball.BackColor = Color.Red
-        self.BackColor = Color.Green # Form BG Colr
+        self.BackColor = Color.Green  # Form BG Color
         """ TODO: PUT MORE EASTER EGGS LATER """
 
     def MainFormSizeChanged(self, sender, e):
